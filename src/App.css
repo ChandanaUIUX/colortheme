@@ -1,0 +1,33 @@
+.app {
+  text-align: center;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.app.light {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.app.dark {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+.header, .footer {
+  padding: 1rem;
+}
+
+.header.light, .footer.light {
+  background-color: #f0f0f0;
+}
+
+.header.dark, .footer.dark {
+  background-color: #444444;
+}
+
+button {
+  margin: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
